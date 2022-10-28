@@ -3,6 +3,10 @@ import 'package:g62_app_componentes/ui/alerts_view.dart';
 import 'package:g62_app_componentes/ui/avatar_view.dart';
 import 'package:g62_app_componentes/ui/cards_view.dart';
 import 'package:g62_app_componentes/ui/expanded_view.dart';
+import 'package:g62_app_componentes/ui/input_view.dart';
+import 'package:g62_app_componentes/ui/listview_builder_view.dart';
+import 'package:g62_app_componentes/ui/listview_view.dart';
+import 'package:g62_app_componentes/ui/stacks_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ExpandedView(),
+      home: const InputView(),
     );
   }
 }
